@@ -1,0 +1,100 @@
+.review-section {
+  height: 84vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.review {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+
+  font-weight: bold;
+}
+.review::before {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 6px 10px 0;
+}
+.review::after {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 0 10px 6px;
+}
+
+
+.review-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+
+
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 6px solid #6f7efd;
+}
+.content{
+    font-size: 20px;
+    color: #484848;
+}
+.content p {
+	text-align: justify;
+}
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: #6f7efd;
+    opacity: 0.7;
+    
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: #6f7efd;
+}
+
+
+@media screen and (max-width:768px) {
+    .review-section {
+        height: auto;
+        width: 100%;
+
+    }
+    #carouselExampleControls > button.carousel-control-next > span.carousel-control-next-icon{
+        display: none;
+    }
+    #carouselExampleControls > button.carousel-control-prev > span.carousel-control-prev-icon{
+        display: none;
+    }
+   
+
+}

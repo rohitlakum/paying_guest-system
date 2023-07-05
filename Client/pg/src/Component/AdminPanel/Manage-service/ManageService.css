@@ -1,0 +1,31 @@
+.service-ofset {
+    height: 45vh !important;
+    width: 42vw !important;
+    display: flex !important;
+    margin: auto;
+    justify-content: center !important;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.extra-service-ofset {
+    height: 55vh !important;
+    width: 42vw !important;
+    display: flex !important;
+    margin: auto;
+    justify-content: center !important;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .service-ofset {
+      width: 100vw !important;
+      height: 47vh!important;
+    }   
+     .extra-service-ofset {
+      width: 100vw !important;
+      height: 56vh!important;
+    }
+  }
+  

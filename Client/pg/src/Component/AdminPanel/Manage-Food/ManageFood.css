@@ -1,0 +1,18 @@
+.addfoodmenu-ofset {
+    height: 55vh !important;
+    width: 42vw !important;
+    display: flex !important;
+    margin: auto;
+    justify-content: center !important;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .addfoodmenu-ofset {
+      width: 100vw !important;
+      height: 47vh!important;
+    }
+  }
+  

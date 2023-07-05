@@ -1,0 +1,50 @@
+.booking-cancle-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+}
+
+.cancel-btn{
+    border: 2px solid #ffffff!important;
+    border-radius: 4px;
+    background-color: #6f7efd!important;
+    color: #ffffff!important;
+    /* text-transform: uppercase; */
+    padding: 0px 15px!important;
+    font-weight: 500!important;
+    letter-spacing: 2px!important;
+    letter-spacing: 2px!important;
+    height: 38px;
+}
+
+.cancel-btn:hover{
+    background-color: #ffffff!important;
+    color: #6f7efd!important;
+    border: 2px solid #6f7efd!important;
+}
+
+.cancel{
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
+    flex-direction: column;
+    margin: auto;
+    /* border: 2px solid green; */
+    border-radius: 4px;
+    width: 30vw;
+}
+
+@media screen and (max-width:768px) {
+    .cancel{
+        display: flex;
+        justify-content: center!important;
+        align-items: center!important;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 4px;
+        width: auto;
+    }
+    
+}

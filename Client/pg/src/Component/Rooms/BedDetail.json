@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 101,
+        "title":"Room-101 (Non Ac)",
+        "price":7500,
+        "bedBook":{
+           
+        }
+    },
+    {
+        "id" : 102,
+        "title":"Room-102 (Non Ac)",
+        "price":7000,
+        "bedBook":
+    }
+
+]
+
+// "B1":false,
+// "B2":true
+
+
+// {
+//     "B1":true,
+//     "B2":false,
+//     "B3":false
+// }

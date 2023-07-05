@@ -1,0 +1,147 @@
+.room-section {
+  /* border: 2px solid red; */
+  /* height: 84vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.room {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 100px!important;
+}
+
+.room::before {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 6px 10px 0;
+}
+.room::after {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 0 10px 6px;
+}
+
+
+
+.room-h5{
+  color: #484848;
+  font-size: 1.2em;
+}
+
+/* .room-row{
+  border: 2px solid green!important;
+ 
+}  */
+
+.room-con{
+  /* border: 2px solid #b2b2b2; */
+  border-radius: 14px;
+  margin-top: 1.2em!important;
+
+}
+.room-card{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 3px 6px 0px;
+  overflow: hidden;
+  /* height: 300px; */
+  transition: 0.5s;
+}
+.room-card:hover{
+  transform: translateY(-4.0%);
+  box-shadow: rgba(99, 99, 99, 0.2) 2px 6px 6px 0px;
+} 
+.room-card::after{
+    content: "";
+    position: absolute;
+    background: #6f7efd;
+    right: 0;
+    opacity: 0.1;
+    top: -180px;
+    width: 445px;
+    height: 200px;
+    border-radius: 100%;
+}
+.book-btn::before{
+  content: "";
+    position: absolute;
+    background: #6f7efd;
+    right: -50px;
+    opacity: 0.1;
+    bottom: -130px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.room-card img{
+  height: 100%;
+}
+.first-drop{
+  display: flex;
+  justify-content: center;
+  
+  /* align-items: center; */
+  
+}
+
+.f-drop{
+  width: 6em;
+  margin-left: 15px;
+  border: 2px solid #484848;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-align: center;
+  border-radius: 7px;
+  color: #484848;
+}
+
+
+/* .room-img{
+  width: 250px;
+  border: 2px solid blue;
+} */
+.book-btn{
+  margin-top: 5em;
+  margin-left: 10px;
+  padding: 5px 6px;
+  text-align: right;
+  border-radius: 7px;
+  color: #FFFFFF;
+  background-color: #6f7efd;
+  border: 2px solid #FFFFFF;
+}
+
+.capa{
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width:768px){
+  .room-h5{
+    font-size: 1.2em;
+  }
+  .f-drop{
+    margin-left: 15px;
+    padding: 0px 8px;
+    width: 6.5em;
+  }
+  .book-btn{
+    margin-top: 0;
+  }
+  .price-btn{
+    display: flex;
+    justify-content: space-between;
+  }
+  .price-col{
+    margin-top: 6px;
+    font-size: 1.4em;
+  }
+  .capa{
+    display: block;
+  }
+}

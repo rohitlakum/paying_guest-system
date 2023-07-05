@@ -1,0 +1,9 @@
+.manage-guest-section {
+
+  /* height: 50vh; */
+  margin-top: 5em!important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}

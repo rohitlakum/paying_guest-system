@@ -1,0 +1,123 @@
+.registration-section {
+  height: auto;
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center;  */
+  background-color: #ffffff !important;
+  /* border: 2px solid red; */
+}
+.registration-heading {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-weight: bold;
+}
+.registration-heading::before {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 6px 10px 0;
+}
+.registration-heading::after {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 0 10px 6px;
+}
+
+/*  */
+
+.registration-form-wrapper {
+  padding: 100px 0;
+}
+
+.registration-form {
+  padding: 30px 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  /* max-width: 500px; */
+  width: 450px;
+}
+
+.registration-form .form-input,
+.form-text-area {
+  background-color: #f0f4f5;
+  height: 50px;
+  padding-left: 16px;
+}
+
+.registration-form .form-text-area {
+  background-color: #f0f4f5;
+  height: auto;
+  padding-left: 16px;
+}
+
+.registration-form .form-control::placeholder {
+  /* color: #aeb4b9; */
+  color: #a1a8ae;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.registration-form .form-control:-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.registration-form .form-control::-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.registration-form .form-control:focus {
+  border-color: #6f7efd;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #6f7efd;
+}
+
+.registration-form .re-description {
+  /* color: #aeb4b9; */
+  color: #222222;
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.8;
+}
+.registration-form .re-title {
+  /* color: #aeb4b9; */
+  color: #6f7981;
+  font-size: 32px;
+  text-align: center;
+}
+
+.registration-form .registration-button {
+  text-align: center;
+}
+
+.registration-form .registration-button input {
+  border: 2px solid #ffffff!important;
+  border-radius: 4px;
+  background-color: #6f7efd!important;
+  color: #ffffff!important;
+  text-transform: uppercase;
+  padding: 0px 60px!important;
+  font-weight: 500!important;
+  letter-spacing: 2px!important;
+  letter-spacing: 2px!important;
+  height: 43px;
+}
+
+.registration-form .registration-button input:hover {
+  background-color: #ffffff!important;
+  color: #6f7efd!important;
+  border: 2px solid #6f7efd!important;
+}
+
+.error {
+  color: #ed6160;
+  font-size: 0.8em;
+  margin-left: 1em;
+  font-family: "Poppins", sans-serif;
+}

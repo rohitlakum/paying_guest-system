@@ -1,0 +1,63 @@
+.condition-section {
+    /* border: 2px solid red; */
+    /* height: 84vh; */
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+.terms{
+    /* font-weight: bold; */
+    color: red;
+    opacity: 0.7;
+}
+
+.terms-para {
+    font-family: "Poppins", sans-serif;
+    color: #484848;
+    font-size: 16px;
+    line-height: 1.923;
+    margin-top: 3em;
+  }
+
+  input.check{
+    background-color: red!important;
+    width : 15px;
+    height : 15px;
+  }
+
+  
+.next-button{
+    border: 2px solid #FFFFFF!important;
+    border-radius: 4px;
+    background-color: #6f7efd!important;
+    color: #FFFFFF!important;
+    text-transform: uppercase!important;
+    padding: 0px 60px!important;
+    font-weight: 500!important;
+    letter-spacing: 2px!important;
+    height: 43px;
+  }
+  
+   .next-button:hover {
+    background-color: #FFFFFF!important;
+    color: #6f7efd!important;
+    border: 2px solid #6f7efd!important;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 500px) {
+    .condition-section {
+      display: block;
+      margin-top: 3em!important;
+      margin-bottom: 0!important;
+      /* height: 90vh; */
+      border: 1px solid white;
+    }
+    .terms-para{
+      font-size: 16px;
+      line-height: 1.923;
+      margin-top: 0;
+    }
+  }
+

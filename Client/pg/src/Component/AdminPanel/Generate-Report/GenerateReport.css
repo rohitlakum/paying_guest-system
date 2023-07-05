@@ -1,0 +1,10 @@
+.booking-report {
+    height: 90vh !important;
+    width: 80vw !important;
+    display: flex !important;
+    margin: auto;
+    justify-content: center !important;
+    text-align: center;
+    border-radius: 10px;
+  }
+  

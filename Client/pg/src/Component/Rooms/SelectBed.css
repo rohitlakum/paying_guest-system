@@ -1,0 +1,148 @@
+.book-section {
+  /* height: 84vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.book {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+
+  font-weight: bold;
+}
+.book::before {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 6px 10px 0;
+}
+.book::after {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #6f7efd;
+  display: inline-block;
+  margin: 0 0 10px 6px;
+}
+
+.bookform {
+  width: 410px;
+  /* margin: auto; */
+  /* border: 2px solid green; */
+  padding: 3em;
+}
+
+.bookform input {
+  color: #666666 !important;
+  border-radius: 5px;
+  background-color: #f0f4f5;
+  border: none;
+  height: 2.7em !important;
+}
+.bookform input::placeholder {
+  color: #666666 !important;
+  opacity: 0.5;
+  font-weight: 500;
+}
+.bookform textarea {
+  color: #666666 !important;
+  border-radius: 5px;
+  background-color: #f0f4f5;
+  border: none;
+  height: 3.5em !important;
+}
+.bookform textarea::placeholder {
+  color: #666666 !important;
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.book-control:focus {
+  border-color: #6f7efd !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.02), 0 0 6px #6f7efd !important;
+}
+
+/* Form css End */
+
+.book-button {
+  border: 2px solid #ffffff !important;
+  border-radius: 4px;
+  margin-top: 8px;
+  background-color: #6f7efd !important;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  padding: 0px 60px !important;
+  font-weight: 500 !important;
+  letter-spacing: 2px !important;
+  letter-spacing: 2px !important;
+  height: 43px;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.book-button:hover {
+  background-color: #ffffff !important;
+  color: #6f7efd !important;
+  border: 2px solid #6f7efd !important;
+}
+
+.file-upload {
+  display: inline-block;
+  /* padding: 0 12px; */
+  /* display: flex; */
+  margin: auto!important;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  color: #666666 !important;
+  opacity: 0.5;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f0f4f5;
+}
+
+.file-upload input[type="file"] {
+  display: none;
+}
+
+
+
+/*  */
+.file {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* border: 2px solid red; */
+  background-color: #f0f4f5;
+  border-radius: 5px;
+  height: 40px!important;
+ 
+}
+
+.file > input[type='file'] {
+  display: none
+}
+
+.file > label {
+  color: #666666 !important;
+  opacity: 0.5;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+@media screen and (max-width:768px) {
+  .bookform {
+    /* width: 410px; */
+    margin: auto;
+    /* border: 2px solid green; */
+    padding: 3em;
+  }
+  
+}
